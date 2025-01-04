@@ -11,7 +11,7 @@ export default function Header() {
     <div className='flex justify-between items-center p-3 max-w-6xl mx-auto'>
         <div className='flex gap-4'>
             <MenuItem title="Home" address="/" Icon={AiFillHome} />
-            <MenuItem title="About" address="/" Icon={BsFillInfoCircleFill} />
+            <MenuItem title="About" address="/about" Icon={BsFillInfoCircleFill} />
         </div>
         <div className='flex items-center gap-4'>
           <DarkModeSwitch />

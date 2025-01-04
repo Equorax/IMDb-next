@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-
+// href yang berperan dalam mengatur kehalaman mana user diarahkan setelah menekan tombol/icon
 export default function MenuItem({title ,address, Icon}) {
   return (
     <Link href={address} className='hover:text-amber-500'>
