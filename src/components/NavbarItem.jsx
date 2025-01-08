@@ -13,6 +13,8 @@ export default function NavbarItem({title,param}) {
         'underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg': ''}` }
       
       
+      // href didalam link membuat hubungan/link ke halaman home(dianggap di depan garis miring adalah route ke halaman home);
+      //
       href={`/?genre=${param}`}>
       {title}
       </Link>
